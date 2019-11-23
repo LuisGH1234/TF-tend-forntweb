@@ -28,7 +28,7 @@ import {
 } from "reactstrap";
 import axios from "axios";
 import "./App.scss";
-const baseUrl = "http://3.230.230.245:3000/api";
+const baseUrl = "http://3.230.230.245:3001/api";
 
 function App(props) {
     const [stories, setStories] = useState([]);
